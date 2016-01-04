@@ -1,0 +1,42 @@
+<div class="container">
+  <navbar></navbar>
+  <header class="hero-unit" id="banner">
+    <div class="container">
+      <h1>Get in touch with us!</h1>
+      <p class="lead">
+        We are always available for business
+      </p>
+      <!-- <img src="assets/images/yeoman.png" alt="I'm Yeoman"> -->
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="col-md-6 col-lg-6 col-sm-6">
+          <center>
+              <h3>Location</h3>
+              <iframe frameborder="0" scrolling="no" marginheight="0"
+               marginwidth="0"width="300" height="350"
+                src="https://maps.google.com/maps?hl=en&q=3209 NW 22nd St, Oklahoma City, Oklahoma 73107&ie=UTF8&t=roadmap&z=6&iwloc=B&output=embed">
+              </iframe>
+            </center>
+          </div>
+      </div>
+        <div class="col-md-6 col-lg-6 col-sm-6">
+          <h3>Contact Infomation</h3>
+          <ul>
+            <li  ng-repeat="person in contact.contacts"> {{person.name}}: {{person.number}}</li>
+          </ul>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<footer></footer>
